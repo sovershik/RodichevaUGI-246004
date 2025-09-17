@@ -14,6 +14,8 @@ namespace prac1
             Console.BackgroundColor = ConsoleColor.Green;
             Console.WriteLine("Hello world!");
             Console.ResetColor();
+
+            Console.ReadKey();
         }
     }
 }
