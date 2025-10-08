@@ -10,7 +10,7 @@ namespace строки_и_символы
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(F(3, 5) * F(3, 7) * F(5, 5));
+            Console.WriteLine(Math.Round(F(3, 5) * F(3, 7) * F(5, 5), 3));
         }
         static double F(double x, double y)
         {
