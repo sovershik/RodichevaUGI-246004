@@ -21,10 +21,11 @@ namespace _9
         static double F(double x)
         {
             if (Math.Sin(x) < -0.5)
-            { return (Math.Sin(x); }
+                return Math.Sin(x);
             else if (Math.Sin(x) > 0.5)
-            { return 1; }
-            else { return 0; }
+                return 1;
+            else 
+                return 0; 
         }
     }
 }
