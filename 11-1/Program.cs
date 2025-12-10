@@ -13,7 +13,7 @@ namespace _11_1
             Console.Write("Введите n: ");
             int n = int.Parse(Console.ReadLine());
 
-            double[] array = new double[n]; 
+            double[] array = new double[n];
             Random rnd = new Random(); //извините, я не поняла, хотят ли тут просто рандомные числа или ввод этих чисел с клавиатуры
 
             for (int i = 0; i < n; i++)
@@ -22,7 +22,7 @@ namespace _11_1
             }
 
             PrintArray(array);
-            }
+        }
 
         static void PrintArray(double[] arr)
         {
