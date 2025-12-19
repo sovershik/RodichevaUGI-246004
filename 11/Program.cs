@@ -12,7 +12,7 @@ class Program
 
         for (int i = 0; i < n; i++)
         {
-            array[i] = rnd.NextDouble() * 20 - 10; // [-10; 10)
+            array[i] = rnd.NextDouble() * 20 - 10; // [-10; 10)        
         }
 
         Console.WriteLine("Исходный массив:");
